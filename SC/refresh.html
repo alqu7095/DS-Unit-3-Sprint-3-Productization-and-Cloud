@@ -1,0 +1,7 @@
+{% block content %}
+{% for record in records %}
+
+<p>{{record.datetime}}, {{record.value}}</p>
+
+{% endfor %}
+{% endblock %}
